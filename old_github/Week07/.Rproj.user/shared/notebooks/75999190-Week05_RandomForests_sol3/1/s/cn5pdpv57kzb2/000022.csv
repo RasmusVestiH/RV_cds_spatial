@@ -1,0 +1,6 @@
+"0","plotRGB(kaze, stretch = ""lin"")
+"
+"2","layer was changed to 2"
+"2","Error in grDevices::rgb(RGB[, 1], RGB[, 2], RGB[, 3], alpha = alpha, max = scale) : 
+  color intensity NA, not in 0:255
+"

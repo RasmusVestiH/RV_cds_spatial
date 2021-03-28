@@ -1,0 +1,9 @@
+"0","# transform also historical baths 
+baths_cph <- wc_spatial%>% 
+  st_centroid() %>% 
+  st_transform(32632) %>% 
+  mutate(radius = sqrt(bath_per_km)) %>% 
+  arrange(desc(bath_per_km))
+"
+"2","st_centroid assumes attributes are constant over geometries of x"
+"2","st_centroid does not give correct centroids for longitude/latitude data"

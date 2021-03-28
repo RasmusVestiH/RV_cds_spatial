@@ -1,0 +1,8 @@
+"0","# Rescale histograms to be consistent
+par(mfrow = c(1, 1)) # reset plotting window
+hist(kazw, xlim = c(0, 1600), ylim = c(0, 50000), breaks = seq(0, 1500, by = 100))
+"
+"2","4% of the raster cells were used. 100000 values used."
+"2","Error in hist.default(v, main = main, plot = plot, ...) : 
+  some 'x' not counted; maybe 'breaks' do not span range of 'x'
+"

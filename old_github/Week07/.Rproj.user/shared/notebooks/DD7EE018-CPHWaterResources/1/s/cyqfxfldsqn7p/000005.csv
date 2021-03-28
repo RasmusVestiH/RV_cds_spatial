@@ -1,0 +1,9 @@
+"0","#qe     <- add_osm_feature(q, key = 'amenity',value = 'water_point')
+public_bath <- c(osmdata_sf(qa),
+                 osmdata_sf(qc),
+                 osmdata_sf(qd))
+"
+"2","Request failed [429]. Retrying in 1 seconds...
+"
+"2","Request failed [429]. Retrying in 3.7 seconds...
+"
